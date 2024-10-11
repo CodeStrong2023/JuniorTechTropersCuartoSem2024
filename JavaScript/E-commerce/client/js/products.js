@@ -1,26 +1,44 @@
-const productos = [
-{
-    id:1,
-    productName: "Banana",
-    quanty: 1,
-    img: "/cliente/media/banana.png"
-},
-{
-    "id": 2,
-    "productName": "Leche",
-    "quanty": 1,
-    "img": "/cliente/media/leche.png"
-},
-{
-    "id": 3,
-    "productName": "Pollo",
-    "quanty": 1,
-    "img": "/cliente/media/pollo.png"
-},
-{
-    "id": 4,
-    "productName": "Mayonesa",
-    "quanty": 1,
-    "img": "/cliente/media/mayonesa.png"
-},
-]
+const productos =  [
+    {
+        id: 1,
+        productName: "Cafe 5 Hispanos",
+        price: 3500,
+        quanty: 1,
+        img: "/client/media/cafe1.webp",
+    },
+    {
+        id: 2,
+        productName: "Cafe Super Cabrales",
+        price: 3200,
+        quanty: 1,
+        img: "/client/media/cafe2.jpg",
+    },
+    {
+        id: 3,
+        productName: "Cafe LaVirginia",
+        price: 3800,
+        quanty: 1,
+        img: "/client/media/cafe3.webp",
+    },
+    {
+        id: 4,
+        productName: "Cafe Bonafide",
+        price: 4500,
+        quanty: 1,
+        img: "/client/media/cafe4.jpg",
+    },
+    {
+        id: 5,
+        productName: "Cafe LACAZZA",
+        price: 2500,
+        quanty: 1,
+        img: "/client/media/cafe5.jpg",
+    },
+    {
+        id: 6,
+        productName: "Cafe COLUMBIA",
+        price: 4200,
+        quanty: 1,
+        img: "/client/media/cafe6.avif",
+    }
+];
