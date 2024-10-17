@@ -1,3 +1,5 @@
+
+//Instrucciones no bloqueantes, todo es sincrono
 console.log('Inicio del programa'); //1
 setTimeout(() => {
     console.log('Primer Timeout'); //5
@@ -8,7 +10,7 @@ setTimeout(() => {
 }, 0);
 
 setTimeout(() => {
-    console.log('Tercer Timeout'); //4
+    console.log('TercerTimeout'); //4
 }, 0);
 
-console.log('Fin del Programa'); //2
+console.log('Fin del programa') //2

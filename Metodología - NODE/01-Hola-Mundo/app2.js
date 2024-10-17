@@ -1,5 +1,5 @@
-const saludar = (nombre)  =>{ //Funcion de flecha
-    return `Saludos de ${nombre}`; //Usamos backtic's
-}//Esto es igual a : 'Saludos' + nombre;
+const saludar = (nombre) => { //Funcion flecha
+    return `Saludos de ${nombre} `;
+} //esto es = a 'Saludos + nombre'
 
-console.log(saludar('Mauro'));;
+console.log(saludar('Juan')); //Imprime 'Saludos Juan'
