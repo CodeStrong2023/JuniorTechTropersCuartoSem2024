@@ -20,7 +20,7 @@ function adios(nombre, otroCallback) {
     }, 1500);
 }
 
-//Funcion recursiva
+//Funcion Recursiva
 function conversacion(nombre, veces, callback) {
     if (veces > 0) {
         hablar(function () {
@@ -32,7 +32,7 @@ function conversacion(nombre, veces, callback) {
 
 }
 
-//--Proceso principal
+//Proceso Principal
 console.log('Iniciando el proceso...');
 hola('Ariel', function (nombre) {
     conversacion(nombre, 3, function () {
@@ -53,4 +53,3 @@ hola('Ariel', function (nombre) {
 //  });
 // });
 //});
-
