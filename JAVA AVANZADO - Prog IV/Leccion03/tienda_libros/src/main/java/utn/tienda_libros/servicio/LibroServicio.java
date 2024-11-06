@@ -8,8 +8,7 @@ import utn.tienda_libros.repositorio.LibroRepositorio;
 import java.util.List;
 
 @Service
-public class LibroServicio implements ILibroServicio {
-
+public class LibroServicio implements ILibroServicio{
 
     @Autowired
     private LibroRepositorio libroRepositorio;
